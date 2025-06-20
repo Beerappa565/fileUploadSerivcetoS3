@@ -23,10 +23,9 @@ public class FileUploadService {
     @Value("${aws.s3.bucket}")
     private String bucketName;
 
-
     @Value("${aws.access-key}")
     private String accessKey;
-
+    //sop😂
     @Value("${aws.secret-key}")
     private String secretKey;
 
