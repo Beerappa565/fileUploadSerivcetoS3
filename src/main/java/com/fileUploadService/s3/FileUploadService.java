@@ -24,7 +24,6 @@ public class FileUploadService {
     private String bucketName;
 
 
-
     @Value("${aws.access-key}")
     private String accessKey;
 
